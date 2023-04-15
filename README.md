@@ -14,3 +14,8 @@ Things that I got stuck with and learnt while solving python coding challenges o
             countstring = countstring +1
             index = findresult+1
     return(countstring)```
+    
+    
+  ```python
+  #**any()**Returns True if any item in an iterable object is true, **all()** Returns True if all items in an iterable object are true
+  ```
