@@ -18,4 +18,9 @@ Things that I got stuck with and learnt while solving python coding challenges o
     
   ``` python
   # any() Returns True if any item in an iterable object is true, all() Returns True if all items in an iterable object are true
+    s = "qA2"
+    print(any(c.isalnum() for c in s))
+    print(any(c.isalpha() for c in s))
   ```
+  
+  
