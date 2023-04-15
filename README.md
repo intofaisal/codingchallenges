@@ -3,10 +3,9 @@ Things that I got stuck with and learnt while solving coding challenges
 
 
 
-```
-    **FINDING SUBSTRING FROM A STRING
-**
-    python  def count_substring(string, sub_string):
+``` python
+    #FINDING SUBSTRING FROM A STRING
+    def count_substring(string, sub_string):
     index = 0
     countstring = 0
     for resultsearch in string:
