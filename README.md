@@ -2,10 +2,11 @@
 Things that I got stuck with and learnt while solving coding challenges
 
 
-**FINDING SUBSTRING FROM A STRING
-**
 
-```python  def count_substring(string, sub_string):
+```
+    **FINDING SUBSTRING FROM A STRING
+**
+    python  def count_substring(string, sub_string):
     index = 0
     countstring = 0
     for resultsearch in string:
@@ -13,4 +14,4 @@ Things that I got stuck with and learnt while solving coding challenges
         if findresult > -1:
             countstring = countstring +1
             index = findresult+1
-  return(countstring)```
+    return(countstring)```
