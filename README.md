@@ -23,3 +23,5 @@ Things that I got stuck with and learnt while solving python coding challenges o
     print(any(c.isalpha() for c in s))
   
   
+  #STRING FORMATTING
+    print(f"Hello {first} {last}! You just delved into python.")
