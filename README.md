@@ -25,3 +25,18 @@ Things that I got stuck with and learnt while solving python coding challenges o
   
   #STRING FORMATTING
     print(f"Hello {first} {last}! You just delved into python.")
+    
+  #STRING ALIGNMENT
+    x, y = map(int, input().split())
+
+    greeting = 'WELCOME'
+    line = '-'
+    pattern = '.|.'
+
+    for i in range (1, x, 2):
+        print((i* pattern).center(y, line))
+
+    print(greeting.center(y, line))
+
+    for i in range(x-2, -1, -2):
+        print((i*pattern).center(y, line))
